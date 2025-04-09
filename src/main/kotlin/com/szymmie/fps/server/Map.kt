@@ -1,8 +1,5 @@
 package com.szymmie.fps.server
 
-import org.springframework.data.mongodb.core.mapping.Document
-
-@Document(collection = "maps")
 data class Map(
     var name: String,
     var cols: Int,
